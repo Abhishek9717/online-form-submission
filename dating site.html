@@ -1,0 +1,81 @@
+<html>
+<head>
+	<title>Online Dating Site</title>
+	<meta name = " author " content = " Abhishek ">
+	<link href="date.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<h1><b>Please Enter Your Details For Our Dating Website!</b></h1>
+<form action="" method="post">
+	<fieldset>
+		<legend>Your Face</legend>
+		<label for = "photo">Your Image:</label>
+		<input type="file" id="photo" name="photo">
+		<br>
+		<label>Image preview:</label>
+	</fieldset>
+	<br>
+
+	<fieldset>
+		<legend>Your General Details</legend>
+		<label for = "name">Name:</label>
+		<input type="text" id="name" name="name">
+		<br>
+		<label>Gender:</label>
+		<input type="radio" name="sex" value="male">Male
+		<input type="radio" name="sex" value="female">Female
+		<br>
+		<label for="age">Age:</label>
+		<input type="number" min="0" max="200" step="1" value="18" name="age" required>
+		<br>
+		<label for="DOB">Date of birth:</label>
+		<input type="date" name="DOB">
+		<br>
+		<label for="color">Favourite color:</label>
+		<input type="color" name="color">
+		<br>
+		<label>Which country:</label>
+		<select name="country">
+			<option value="in">India</option>
+			<option value="us">US</option>
+			<option value="hk">Hong Kong</option>
+			<option value="cn">China</option>
+			<option value="jp">Japan</option>
+			<option value="can">Canada</option>
+			<option value="uk">UK</option>
+		</select>
+	</fieldset>
+	<br>
+
+	<fieldset>
+		<legend>Your Indicators</legend>
+		<label for = "height">Height:</label>
+		<span class="redc">Short</span>
+		<input type="range" min="0" max="100" step="5" value="50" name="height">
+		<span class="purc">Tall</span>
+		<br>
+		<label for = "sal">Salary:</label>
+		<span class="redc">Poor</span>
+		<input type="range" min="0" max="100" step="5" value="50" name="sal">
+		<span class="purc">Rich</span>
+		<br>
+	</fieldset>
+	<br>
+
+	<fieldset>
+		<legend>Your Contact Information</legend>
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email">
+		<br>
+		<label for="mob">Mobile:</label>
+		<input type="number" id="mob" name="mob">
+		<br>
+		Address:
+		<textarea rows="4" cols="60" placeholder="Enter your address here"></textarea>
+	</fieldset>
+
+	<input type="submit" value="Submit!">
+
+</form>
+</body>
+</html>

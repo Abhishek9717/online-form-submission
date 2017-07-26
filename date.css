@@ -1,0 +1,9 @@
+fieldset { 	border:5px solid;
+			border-color: yellow;
+			}
+fieldset legend {font-size: 18px}
+.redc{font-color:white;
+		background-size: 5px;
+		background:red;}
+.purc{font-color:white;
+		background:purple;}
